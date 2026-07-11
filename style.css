@@ -212,7 +212,7 @@ p {
 }
 
 #Meet-content-2 {
-    
+
 
     text-align: center;
 
@@ -318,7 +318,7 @@ p {
 
 
 
-.statistics{
+.statistics {
 
     width: 85%;
     margin: 80px auto 120px;
@@ -329,7 +329,7 @@ p {
     align-items: center;
 
     background-image:
-        linear-gradient(rgba(18,18,40,.65), rgba(18,18,40,.65)),
+        linear-gradient(rgba(18, 18, 40, .65), rgba(18, 18, 40, .65)),
         url("./B14-A01-DevConf-2026/assets/seminer.jpg");
 
     background-size: cover;
@@ -339,7 +339,7 @@ p {
     border-radius: 30px;
     overflow: hidden;
 
-    box-shadow: 0 20px 50px rgba(0,0,0,.25);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .25);
 }
 
 
@@ -350,17 +350,17 @@ p {
 
 
 
-#Meet-content2{
+#Meet-content2 {
     text-align: center;
     margin-bottom: 50px;
 }
 
-#Meet-content2 h2{
+#Meet-content2 h2 {
     color: white;
 }
 
-#Meet-content2 p{
-    color: rgba(255,255,255,.85);
+#Meet-content2 p {
+    color: rgba(255, 255, 255, .85);
     margin-top: 12px;
 }
 
@@ -372,7 +372,7 @@ p {
 
 
 
-.grid-sec-4{
+.grid-sec-4 {
 
     width: 100%;
     display: flex;
@@ -380,43 +380,43 @@ p {
     gap: 25px;
 }
 
-.card{
+.card {
 
     width: 250px;
     padding: 40px 25px;
     text-align: center;
-    background: rgba(255,255,255,.12);
+    background: rgba(255, 255, 255, .12);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,.2);
+    border: 1px solid rgba(255, 255, 255, .2);
     border-radius: 22px;
     color: white;
     transition: .35s;
-    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
 }
 
-.card:hover{
+.card:hover {
 
     transform: translateY(-12px);
-    background: rgba(255,255,255,.18);
-    box-shadow: 0 18px 40px rgba(0,0,0,.35);
+    background: rgba(255, 255, 255, .18);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, .35);
 }
 
-.card h1{
+.card h1 {
 
     font-size: 56px;
     margin-bottom: 15px;
     color: white;
 }
 
-.card h3{
+.card h3 {
 
     font-size: 22px;
     margin-bottom: 18px;
 }
 
-.card p{
+.card p {
 
-    color: rgba(255,255,255,.9);
+    color: rgba(255, 255, 255, .9);
     line-height: 1.8;
     font-size: 15px;
 }
@@ -429,26 +429,26 @@ p {
 
 
 
-.notice{
+.notice {
 
     width: 90%;
     margin-top: 80px;
     padding: 60px;
     text-align: center;
-    background: rgba(255,255,255,.92);
+    background: rgba(255, 255, 255, .92);
     backdrop-filter: blur(8px);
     border-radius: 25px;
-    box-shadow: 0 15px 40px rgba(0,0,0,.2);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, .2);
 }
 
-.notice h2{
+.notice h2 {
 
     font-size: 40px;
     color: #3C2D83;
     margin-bottom: 20px;
 }
 
-.notice p{
+.notice p {
 
     width: 75%;
     margin: auto;
@@ -457,7 +457,7 @@ p {
     color: #555;
 }
 
-.notice button{
+.notice button {
 
     margin-top: 35px;
     padding: 16px 42px;
@@ -471,7 +471,7 @@ p {
     transition: .3s;
 }
 
-.notice button:hover{
+.notice button:hover {
 
     background: #2E2267;
 
@@ -494,9 +494,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 10px auto;
     max-width: 1200px;
-    
+
 }
 
 ul {
@@ -512,6 +512,22 @@ ul li a {
     text-decoration: none;
 }
 
-.foot p{
+.foot p {
+    color: #575757;
+}
+
+.icons {
+    font-size: 23px;
+    color: #575757;
+ 
+    
+}
+
+footer p {
+    margin: 5px auto;
+    text-align: center;
+}
+
+footer hr {
     color: #575757;
 }
