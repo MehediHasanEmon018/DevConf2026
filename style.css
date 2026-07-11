@@ -330,7 +330,7 @@ p {
 
     background-image:
         linear-gradient(rgba(18,18,40,.65), rgba(18,18,40,.65)),
-        url("/B14-A01-DevConf-2026/assets/seminer.jpg");
+        url("./B14-A01-DevConf-2026/assets/seminer.jpg");
 
     background-size: cover;
     background-position: center;
