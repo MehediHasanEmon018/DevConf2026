@@ -375,68 +375,49 @@ p {
 .grid-sec-4{
 
     width: 100%;
-
     display: flex;
-
     justify-content: space-between;
-
     gap: 25px;
 }
 
 .card{
 
     width: 250px;
-
     padding: 40px 25px;
-
     text-align: center;
-
     background: rgba(255,255,255,.12);
-
     backdrop-filter: blur(10px);
-
     border: 1px solid rgba(255,255,255,.2);
-
     border-radius: 22px;
-
     color: white;
-
     transition: .35s;
-
     box-shadow: 0 10px 30px rgba(0,0,0,.2);
 }
 
 .card:hover{
 
     transform: translateY(-12px);
-
     background: rgba(255,255,255,.18);
-
     box-shadow: 0 18px 40px rgba(0,0,0,.35);
 }
 
 .card h1{
 
     font-size: 56px;
-
     margin-bottom: 15px;
-
     color: white;
 }
 
 .card h3{
 
     font-size: 22px;
-
     margin-bottom: 18px;
 }
 
 .card p{
 
     color: rgba(255,255,255,.9);
-
     line-height: 1.8;
-
     font-size: 15px;
 }
 
@@ -451,64 +432,42 @@ p {
 .notice{
 
     width: 90%;
-
     margin-top: 80px;
-
     padding: 60px;
-
     text-align: center;
-
     background: rgba(255,255,255,.92);
-
     backdrop-filter: blur(8px);
-
     border-radius: 25px;
-
     box-shadow: 0 15px 40px rgba(0,0,0,.2);
 }
 
 .notice h2{
 
     font-size: 40px;
-
     color: #3C2D83;
-
     margin-bottom: 20px;
 }
 
 .notice p{
 
     width: 75%;
-
     margin: auto;
-
     font-size: 18px;
-
     line-height: 1.8;
-
     color: #555;
 }
 
 .notice button{
 
     margin-top: 35px;
-
     padding: 16px 42px;
-
     background: #3C2D83;
-
     color: white;
-
     border: none;
-
     border-radius: 50px;
-
     font-size: 17px;
-
     font-weight: 700;
-
     cursor: pointer;
-
     transition: .3s;
 }
 
@@ -518,6 +477,8 @@ p {
 
     transform: translateY(-4px);
 }
+
+
 
 
 
