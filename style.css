@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: white;
+    padding: 12px;
+
+
+}
+
+
+.ContainerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+ul li a {
+    color: #575757;
+    text-decoration: none;
+}
+
+
+button {
+    background-color: #1D4ED8;
+    color: white;
+    border-radius: 10px;
+    border-color: #1D4ED8;
+    padding: 12px 26px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+/*2nd section*/
+
+.hero {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    background-image: url(/B14-A01-DevConf-2026/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-h2 {
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+
+}
+
+.hero-content {
+    text-align: center;
+}
+
+p {
+    color: white;
+    max-width: 500px;
+    padding: 10px;
+    margin: 20px;
+    margin: auto;
+    font-weight: lighter;
+
+}
+
+.hero-content {
+
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.hero-btn {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+
+    margin-top: 350px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+/*Meet the Speakers Section*/
+
+.Meet-speakers {
+    
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Meet-h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 56px;
+    color: #000102;
+    text-align: center;
+}
+
+#info {
+    padding: 15px;
+    text-align: left;
+    border-color: #575757;
+
+}
+
+#meet {
+    color: #575757;
+    padding: 0px;
+    margin-left: 0px;
+    margin-left: 0;
+}
+
+.grid {
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0px;
+    gap: 30px;
+
+}
+
+.grid1 {
+    display: grid;
+    gap: 30px;
+    border: #000102;
+    
+}
+
+.grid2 {
+    display: grid;
+    gap: 30px;
+}
+
+.grid h5 {
+    color: #2563EB;
+}
+
+
+#speaker1
+    {
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#speaker2{
+    
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+
+}
+#speaker3{
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+}
+
+#speaker4{
+    border: 1px solid #E5E7EB;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+}
+
+
+
+
+/*Meet-the-Speakers-Section*/
+
+
+.Meet-speakers {
+    height: 610px;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
