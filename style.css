@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -38,7 +38,7 @@ ul li a {
 button {
     background-color: #1D4ED8;
     color: white;
-    border-radius: 10px;
+    border-radius: 12px;
     border-color: #1D4ED8;
     padding: 12px 26px;
     font-weight: bold;
@@ -102,7 +102,7 @@ p {
     margin: auto;
 
     margin-top: 350px;
-    padding: 15px 30px;
+    padding: 20px 50px;
     cursor: pointer;
 }
 
