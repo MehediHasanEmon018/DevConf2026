@@ -4,9 +4,10 @@
 
 }
 
+
 header {
     background-color: white;
-    padding: 12px;
+    padding: 30px;
 
 
 }
@@ -108,7 +109,7 @@ p {
 /*Meet the Speakers Section*/
 
 .Meet-speakers {
-    
+
     display: flex;
     display: flex;
     flex-direction: column;
@@ -152,7 +153,7 @@ p {
     display: grid;
     gap: 30px;
     border: #000102;
-    
+
 }
 
 .grid2 {
@@ -165,30 +166,30 @@ p {
 }
 
 
-#speaker1
-    {
+#speaker1 {
     border: 1px solid #E5E7EB;
     border-radius: 16px;
     overflow: hidden;
     background: #fff;
 }
 
-#speaker2{
-    
+#speaker2 {
+
     border: 1px solid #E5E7EB;
     border-radius: 16px;
     overflow: hidden;
     background: #fff;
 
 }
-#speaker3{
+
+#speaker3 {
     border: 1px solid #E5E7EB;
     border-radius: 16px;
     overflow: hidden;
     background: #fff;
 }
 
-#speaker4{
+#speaker4 {
     border: 1px solid #E5E7EB;
     border-radius: 16px;
     overflow: hidden;
@@ -202,7 +203,7 @@ p {
 
 
 .Secure-Your-Spot {
-    height: 610px;
+    height: 650px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -210,60 +211,66 @@ p {
 
 }
 
-#Meet-content2{
+#Meet-content-2 {
+    
 
     text-align: center;
 
 }
-.Meet-h2{
-    
+
+.Meet-h2 {
+    margin-top: 100px;
     margin-bottom: 10px;
 }
-.Meet-p2{
+
+.Meet-p2 {
     color: #575757;
     margin-bottom: 50px;
     padding: 0px;
     text-align: center;
 }
 
-.sec3-p{
+.sec3-p {
     color: #575757;
     margin-top: 0px;
     padding: 0px;
     margin-left: 0px;
     margin-left: 0;
-   
+
 }
 
-.sec-3{
+.sec-3 {
     list-style: disc;
     flex-direction: column;
-    
+
 }
-.sec3-btn1{
+
+.sec3-btn1 {
     background-color: white;
-   color:  #1D4ED8;
+    color: #1D4ED8;
     border-color: #2563EB;
     padding: 10px 70px;
-     align-items: center;
+    align-items: center;
 }
-.sec3-btn3{
+
+.sec3-btn3 {
     background-color: white;
-   color: black;
+    color: black;
     border-color: black;
     padding: 10px 70px;
     align-items: center;
 }
-.sec3-btn2{
+
+.sec3-btn2 {
     background-color: #1D4ED8;
-    color:white;
+    color: white;
     border-color: #2563EB;
     padding: 10px 70px;
-     align-items: center;
-    
+    align-items: center;
+
 }
 
-.grid-sec-3{
+.grid-sec-3 {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -271,24 +278,68 @@ p {
     gap: 50px;
 
 }
-.Standard{
-   padding: 30px 60px;
-     border-radius: 12px;
-         background-color: #E5E7EB;
+
+.Standard {
+    padding: 30px 60px;
+    border-radius: 12px;
+    background-color: #E5E7EB;
 
 }
-.Pro{
+
+.Pro {
     padding: 30px 60px;
     background-color: #0D1B2A;
     color: white;
     border-radius: 12px;
 }
 
-.Team{
+.Team {
     padding: 30px 60px;
     border-radius: 12px;
     background-color: #E5E7EB;
-    
+
+}
+
+.Head-standard {
+    color: #575757;
+}
+
+.Head-Pro {
+    color: #2563EB;
+}
+
+.Head-Team {
+    color: #575757;
+}
+
+.price-pro {
+    color: white;
+}
+
+
+
+.statistics{
+
+    width: 85%;
+    margin: 80px auto 120px;
+    padding: 70px 50px 90px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image:
+        linear-gradient(rgba(18,18,40,.65), rgba(18,18,40,.65)),
+        url("/B14-A01-DevConf-2026/assets/seminer.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 30px;
+    overflow: hidden;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,.25);
 }
 
 
@@ -297,3 +348,209 @@ p {
 
 
 
+
+
+#Meet-content2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Meet-content2 h2{
+    color: white;
+}
+
+#Meet-content2 p{
+    color: rgba(255,255,255,.85);
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+.grid-sec-4{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 25px;
+}
+
+.card{
+
+    width: 250px;
+
+    padding: 40px 25px;
+
+    text-align: center;
+
+    background: rgba(255,255,255,.12);
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255,255,255,.2);
+
+    border-radius: 22px;
+
+    color: white;
+
+    transition: .35s;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.card:hover{
+
+    transform: translateY(-12px);
+
+    background: rgba(255,255,255,.18);
+
+    box-shadow: 0 18px 40px rgba(0,0,0,.35);
+}
+
+.card h1{
+
+    font-size: 56px;
+
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+.card h3{
+
+    font-size: 22px;
+
+    margin-bottom: 18px;
+}
+
+.card p{
+
+    color: rgba(255,255,255,.9);
+
+    line-height: 1.8;
+
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+.notice{
+
+    width: 90%;
+
+    margin-top: 80px;
+
+    padding: 60px;
+
+    text-align: center;
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(8px);
+
+    border-radius: 25px;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,.2);
+}
+
+.notice h2{
+
+    font-size: 40px;
+
+    color: #3C2D83;
+
+    margin-bottom: 20px;
+}
+
+.notice p{
+
+    width: 75%;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    color: #555;
+}
+
+.notice button{
+
+    margin-top: 35px;
+
+    padding: 16px 42px;
+
+    background: #3C2D83;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 50px;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.notice button:hover{
+
+    background: #2E2267;
+
+    transform: translateY(-4px);
+}
+
+
+
+footer {
+    background-color: white;
+    padding: 40px;
+    background-color: #0D1B2A;
+
+
+}
+
+.ContainerFoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1200px;
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+
+
+}
+
+ul li a {
+    color: #575757;
+    text-decoration: none;
+}
+
+.foot p{
+    color: #575757;
+}
