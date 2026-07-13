@@ -483,24 +483,26 @@ p {
 
 footer {
     background-color: white;
-    padding: 40px;
+    padding: 10px 40px;
     background-color: #0D1B2A;
-    margin: 0px;
+    margin: 0;
 }
 
 .ContainerFoot {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px auto;
+    
     max-width: 1200px;
-
+margin: 10px auto;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 10px;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -525,9 +527,11 @@ ul li a {
 footer p {
     margin-left: 0px auto;
     text-align: center;
+    
 }
 
 footer hr {
     color: #575757;
+     margin: 20px 0;
 }
 
